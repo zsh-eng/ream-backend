@@ -19,3 +19,8 @@ Pass the `CloudflareBindings` as generics when instantiation `Hono`:
 // src/index.ts
 const app = new Hono<{ Bindings: CloudflareBindings }>()
 ```
+
+## Notes
+
+- Follow the Drizzle guide for getting the Cloudflare env variables (this is just for database migrations and interacting with the D1 database).
+- See [this link](https://orm.drizzle.team/docs/get-started/d1-new) for info.

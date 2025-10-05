@@ -5,8 +5,8 @@
   "main": "./src/index.tsx",
   "d1_databases": [
     {
-      "binding": "ream_backend_db",
-      "database_name": "REAM_DATABASE",
+      "binding": "REAM_BACKEND_DB",
+      "database_name": "ream_backend_db",
       "database_id": "121fb46f-5d57-4821-b4a1-03106c3d59fd",
     },
   ],
